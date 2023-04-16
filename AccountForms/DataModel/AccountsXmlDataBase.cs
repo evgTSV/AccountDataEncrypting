@@ -2,7 +2,7 @@
 using System.Xml.Linq;
 namespace AccountForms.DataModel
 {
-    public sealed class AccountsXmlDataBase : [AccountDataBase](https://github.com/Evgeny608799/AccountDataEncrypting/blob/master/AccountForms/DataModel/AccountDataBase.cs)
+    public sealed class AccountsXmlDataBase : AccountDataBase
     {
         public AccountsXmlDataBase(string xmlFilePath, IEncryptor passwordEncryptor)
             : base (passwordEncryptor)
